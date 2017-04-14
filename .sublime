@@ -1,0 +1,23 @@
+## Sublime Confs
+
+## Custom Keymap
+
+[
+	{ "keys": ["ctrl+k"], "command": "toggle_side_bar" },
+	{ "keys": ["f12"], "command": "reindent", "args": {"single_line": false} }
+]
+
+
+{
+	"caret_style": "blink",
+	"color_scheme": "Packages/User/SublimeLinter/1337 (SL).tmTheme",
+	"font_size": 12,
+	"high_visibility_color": "__bracket__",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "SoDaReloaded Dark.sublime-theme",
+	"translate_tabs_to_spaces": false
+}
