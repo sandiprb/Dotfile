@@ -1,0 +1,48 @@
+{
+	"workbench.colorTheme": "Atom One Dark",
+	"window.zoomLevel": -1,
+	"editor.insertSpaces": true,
+	"editor.wordWrap": "on",
+	"workbench.sideBar.location": "right",
+	"editor.fontSize": 15,
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/*.pyc": true,
+		"**/CACHE/*": true
+	},
+	"workbench.statusBar.visible": true,
+	"workbench.startupEditor": "newUntitledFile",
+	"files.trimTrailingWhitespace": true,
+	"search.exclude": {
+		"**/*.bundle.js": true
+	},
+	"files.associations": {
+		"*.css": "postcss"
+	},
+	// Whether to lint Python files using flake8
+	"python.linting.flake8Enabled": true,
+	"python.linting.pylintArgs": ["--disable=C0111", "--max-line-length=120"],
+	"python.pythonPath": "/Users/sandip/anaconda2/bin/python",
+	"prettier.trailingComma": "es5",
+	"prettier.printWidth": 120,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"prettier.useTabs": true,
+	"prettier.semi": false,
+	"prettier.bracketSpacing": false,
+	"prettier.jsxBracketSameLine": false,
+	"prettier.typescriptEnable": ["typescript", "typescriptreact"],
+	"editor.formatOnSave": false,
+	"python.formatting.formatOnSave": false,
+	"javascript.formatting.formatOnSave": true,
+	"sublimeTextKeymap.promptV3Features": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.snippetSuggestions": "top",
+	"editor.formatOnPaste": false
+	// "html.format.enable": false
+	// "html": {"editor.formatOnSave.ex": false}
+}
